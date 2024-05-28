@@ -1,0 +1,44 @@
+body {
+  background: url('/images/back.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #fff; 
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.card-title, .card-text {
+  color: #000;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-info {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.spinner-border {
+  color: #007bff;
+}
+
+.modal-content {
+  background-color: rgba(255, 255, 255, 0.9);
+}
